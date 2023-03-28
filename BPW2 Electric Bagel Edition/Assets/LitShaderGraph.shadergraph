@@ -11,6 +11,9 @@
         },
         {
             "m_Id": "34a3920fbc4c4da992a9d6c739ba099d"
+        },
+        {
+            "m_Id": "c8c41ca65af846c99454718fd209cb2f"
         }
     ],
     "m_Keywords": [],
@@ -355,6 +358,9 @@
         },
         {
             "m_Id": "34a3920fbc4c4da992a9d6c739ba099d"
+        },
+        {
+            "m_Id": "c8c41ca65af846c99454718fd209cb2f"
         }
     ]
 }
@@ -371,10 +377,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1112.0,
-            "y": -180.80001831054688,
-            "width": 123.99993896484375,
-            "height": 172.80001831054688
+            "x": -1110.400146484375,
+            "y": -217.60000610351563,
+            "width": 124.00006103515625,
+            "height": 172.7999725341797
         }
     },
     "m_Slots": [
@@ -413,7 +419,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Alpha",
     "m_StageCapability": 2,
-    "m_Value": 0.5,
+    "m_Value": 0.30000001192092898,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
@@ -437,7 +443,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -1035,7 +1041,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "CellDensity",
     "m_StageCapability": 3,
-    "m_Value": 10.0,
+    "m_Value": 4.0,
     "m_DefaultValue": 5.0,
     "m_Labels": []
 }
@@ -1352,6 +1358,35 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
+    "m_ObjectId": "c8c41ca65af846c99454718fd209cb2f",
+    "m_Guid": {
+        "m_GuidSerialized": "033faae8-d645-4bfb-bc7a-1c50bc799efb"
+    },
+    "m_Name": "CausticTexture",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "CausticTexture",
+    "m_DefaultReferenceName": "_CausticTexture",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_Guid": ""
+    },
+    "isMainTexture": false,
+    "useTilingAndOffset": false,
+    "m_Modifiable": true,
+    "m_DefaultType": 0
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.VoronoiNode",
     "m_ObjectId": "ca62993556e04ce29a0f1e4e7108f71c",
     "m_Group": {
@@ -1362,10 +1397,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -680.800048828125,
-            "y": 116.80000305175781,
-            "width": 208.00003051757813,
-            "height": 325.5999755859375
+            "x": -624.7999877929688,
+            "y": 119.20000457763672,
+            "width": 207.99996948242188,
+            "height": 325.5999450683594
         }
     },
     "m_Slots": [
