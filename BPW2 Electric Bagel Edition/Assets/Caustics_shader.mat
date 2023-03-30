@@ -34,16 +34,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.1
+    - _Alpha: 0.15
     - _High: 11.9
     - _Low: -24.7
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Voronio_size: 0.41
-    - _Voronoi_speed: 1
+    - _Voronoi_speed: 1.5
     - _voronoi_power: 1.53
     m_Colors:
-    - _Albedo: {r: 0.542969, g: 0.7322023, b: 0.7735849, a: 0}
+    - _Albedo: {r: 0, g: 0.61565495, b: 0.6415094, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6334729198427061512
 MonoBehaviour:
